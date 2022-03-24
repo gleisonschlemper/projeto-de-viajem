@@ -1,0 +1,85 @@
+*{text-decoration: none;margin: 0;border: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto';color: rgb(0, 0, 0)}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+body{overflow-x: hidden;}
+header{max-width: 100vw;height: 100vh;background-color: rgb(121, 221, 216);}
+#header-menu{width: 100%;height:80px;}
+.header-body{width:70%;height: 100%;float: right;display: flex;align-items: center;justify-content: space-evenly;}
+aside{width: 30%;height: 100vh;display: flex;position: absolute;}
+aside .divmenu{flex:1;display: flex;height: 80px;align-items: center;}
+aside .divarea{z-index: 99;display: none;height: 100%;transition: all ease 5s;background-color: rgb(121, 221, 216);}
+/*ussei position absolute no asside para colocar parte do menu do b7 fica no max dela da t*/
+.divmenu .hamburguer{width: 60px;height: 50px;}
+.divarea .area-logo{justify-content: space-around;align-items: center;display: flex;width: 100%;background-color: rgb(121, 221, 216);height: 80px;}
+.divarea .area-logo .logo{width: 30%;height: 50%;}
+.divarea .area-logo .logo-titulo{font-family: 'Roboto';;color: rgb(0, 0, 0);width: 60%;height: 30%;;font-size: 18px;display: flex;align-items: center;justify-content: center;}
+.divarea .area-body{width: 100%;height: calc(100vh - 80px);display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
+.divarea .area-body .body{width: 90%;height: 20%;display: flex;align-items: center;}
+.body img{width:30px;height: 30px;position: absolute;left: 7%;}
+.body input{width: 100%;height: 70%;}
+.facebook{width: 20%;height: 40%;position: relative;}
+.instagram{width: 20%;height: 40%;position: relative;}
+.instagram img{width: 100%;height: 100%;position: absolute;}
+.email{width: 20%;height: 40%;position: relative;}
+.email img{width: 100%;height: 100%;position: absolute;}
+/**/
+.header-body a{cursor: pointer;font-size: 20px;font-family: 'Staatliches';text-transform: uppercase;display: flex;align-items: center;gap: 5px;;}
+.header-body a:hover{color: rgb(162, 0, 255);}
+.header-body img{width: 40px;height: 35px;}
+#header-conteiner{display: flex;background-image: url(https://img.elo7.com.br/product/original/1AFAFCF/painel-fundo-metropole-4-00-x-2-00m-cidade.jpg);width: 100%;height: calc(100vh - 80px);background-repeat: no-repeat;background-size: cover;background-position: center;}
+.header-left{width: 50%;height: 100%;display: flex;flex-direction: column;justify-content: space-around;align-items: center;}
+.header-right{width: 50%;height: 100%;display: flex;flex-direction: column;justify-content: space-evenly;align-items: center;}
+.header-right .a-button{justify-content: center;display: flex;align-items: center;width: 120px;height: 45px;cursor: pointer;box-shadow: 3px 3px 3px rgb(25, 0, 255);letter-spacing: 1px;font-family: 'Staatliches';border: 2px solid rgb(255, 255, 255);padding: 10px;background-image: linear-gradient(to left,rgba(0, 0, 0, 0.863),rgba(98, 0, 255, 0.897)) ;border-radius: 10%;color:white}
+.header-right .a-button:hover{background-image: linear-gradient(to right,rgba(0, 0, 0, 0.863),rgba(98, 0, 255, 0.897))}
+.header-right input{border: 2px solid black;width: 35%;height: 7%;background-color: rgba(255, 255, 255, 0.739);text-align: center;}
+.header-right select{width: 35%;height: 5%;border: 2px solid black;background-color: rgba(255, 255, 255, 0.739);text-align: center;}
+.header-right  p{color: rgb(0, 0, 0);font-family: 'Staatliches';display: flex;align-items:center;justify-content: center;font-size: 20px;}
+.header-right  h1{letter-spacing: 1px;}
+.header-left .card-principal{width:60%;height: 50%;overflow: hidden;}
+.header-left .card-principal #sliders{height: 100%;width: calc(100% * 10);display: flex;animation: card 100s infinite;justify-content: space-between;}
+
+@keyframes card{
+    10%{margin-left: -0%;}
+    20%{margin-left: -100%;}
+    30%{margin-left: -200%;}
+    40%{margin-left: -300%;}
+     50%{margin-left: -400%;}
+     60%{margin-left: -500%;}
+     70%{margin-left: -600%;}
+     80%{margin-left: -700%;}
+     90%{margin-left: -800%;}
+     100%{margin-left: -900%;}
+   
+}
+.header-left .card-principal .cards{width: 100%;height: 100%;}
+#card1{background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Feriados-na-Fran%C3%A7a-saiba-quais-s%C3%A3o-e-planeje-a-sua-viagem_1557969518.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+#card2{background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Feriados-na-Fran%C3%A7a-saiba-quais-s%C3%A3o-e-planeje-a-sua-viagem_1557969518.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+#card3{background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Feriados-na-Fran%C3%A7a-saiba-quais-s%C3%A3o-e-planeje-a-sua-viagem_1557969518.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+#card4{background-image: url(https://www.remessaonline.com.br/blog/wp-content/uploads/2020/01/Feriados-na-Fran%C3%A7a-saiba-quais-s%C3%A3o-e-planeje-a-sua-viagem_1557969518.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+
+@media(max-width:900px)and (min-width:500px){
+    .header-body .a1,.a-button{display: none;}
+    aside{width: 25%;height: 100vh;display: flex;position: absolute;}
+aside .divmenu{flex:1;display: flex;height: 50px;align-items: center;}
+aside .divarea{z-index: 99;display: none;height: 100%;transition: all ease 5s;background-color: rgb(121, 221, 216);}
+    #header-menu{width: 100%;height:50px;}
+    #header-conteiner{flex-direction: column;display: flex;background-image: url(https://img.elo7.com.br/product/original/1AFAFCF/painel-fundo-metropole-4-00-x-2-00m-cidade.jpg);width: 100%;height: calc(100vh - 50px);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .header-left{width: 100%;height: 40%;}
+    .header-right{width: 100%;height: 60%;}
+    .header-left{display: flex;}
+    .header-left h1{display: none;}
+}
+@media(max-width:500px){
+    .header-body .a1,.a-button{display: none;}
+    aside{width: 50%;height: 100vh;display: flex;position: absolute;}
+aside .divmenu{flex:1;display: flex;height: 50px;align-items: center;}
+aside .divarea{z-index: 99;display: none;height: 100%;transition: all ease 5s;background-color: rgb(121, 221, 216);}
+    #header-menu{width: 100%;height:50px;}
+    #header-conteiner{flex-direction: column;display: flex;background-image: url(https://img.elo7.com.br/product/original/1AFAFCF/painel-fundo-metropole-4-00-x-2-00m-cidade.jpg);width: 100%;height: calc(100vh - 50px);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .header-left{width: 100%;height: 40%;}
+    .header-right{width: 100%;height: 60%;}
+
+    .header-left h1{display: none;}
+    
+  
+}
+

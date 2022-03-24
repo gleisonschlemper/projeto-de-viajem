@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+<div id="header-menu"> 
+ <aside>
+ <div class="divarea">
+<div class="area-logo">
+    <div class="logo"><img src="https://i.pinimg.com/474x/87/c4/28/87c42839950dd52485e24f94dda68425.jpg" alt="" srcset="" style="width: 100%;height: 100%;"></div>
+    <p class="logo-titulo">PAGUE PARATO</p>
+</div>
+<div class="area-body">
+<div class="body">
+    <img src="../fotos/lupa.png" alt="" srcset="" class="img-input">
+    <input type="text" placeholder="Oque precisa.." style="text-align: center;">
+</div><!-- body -->
+<div class="body">
+<div class="facebook"><a href=""><img src="../fotos/facebook.png" alt="" srcset="" ></div><p>@CurteVerãoConosco</p></a>
+</div><!-- body -->
+<div class="body">
+<div class="email"><a href=""><img src="../fotos/o-email.png" alt="" srcset=""></div><p>dev.schlemper@gmail.com</p></a>
+</div><!-- body -->
+<div class="body" >
+<div class="instagram"><a href=""><img src="../fotos/instagram.png" alt="" srcset=""></div><p>@CurteVerãoAqui</p></a>
+</div><!--body  -->
+<!-- os menus de redes socias -->
+</div><!--area-body  -->
+</div><!-- divarea --><!-- conteiner parte do menu fica a parte de pesquisa -->
+<div class="divmenu" >
+        <div class="hamburguer" onclick="menuclique()" style="margin-left: 10px;">
+            <img src="../fotos/pontas-de-flechas-direitas.png" alt="" srcset="" style="width: 100%;height: 100%;">
+        </div><!--hamburguer/ div para clicar  -->
+</div><!-- divmenu --><!--divarea e divmunu se mexe no asside/  -->
+</aside><!-- aside-->
+<!-- menu de navegação -->  
+<div class="header-body">
+<a href="" ><img src="../fotos/viajando-de-aviao-pela-terra.png" alt="" srcset="" >Viagem bom</a>
+<a href=""><img src="../fotos/paque-menos.png" alt="" srcset="" >Pague baixo</a>
+<a href="" class="a1">Lodres</a>
+<a href="" class="a1">Paris</a>
+</div><!-- conteiner parte 2-->
+</div><!-- header-menu/parte do menu do site de 80px de altura -->
+<div id="header-conteiner">
+<div class="header-left">
+  <h1><strong>viajar ficou muito mais barato</strong>  </h1>
+  <p>pode viajar agora do brasil por qualquer lugar da europa?</p>
+  <div class="card-principal">
+<div id="sliders">
+<div class="cards" style="background-color: blue;"id="card1" ></div>
+<div class="cards" style="background-color: rgb(255, 123, 0);" id="card2"></div>
+<div class="cards" style="background-color: rgb(0, 255, 21);" id="card3"></div>
+<div class="cards"  style="background-color: rgb(0, 255, 213);" id="card4"></div>
+<div class="cards" style="background-color: blue;"id="card5" ></div>
+<div class="cards" style="background-color: rgb(255, 123, 0);" id="card6"></div>
+<div class="cards" style="background-color: rgb(0, 255, 21);" id="card7"></div>
+<div class="cards"  style="background-color: rgb(0, 255, 213);" id="card8"></div>
+<div class="cards" style="background-color: rgb(0, 255, 21);" id="card9"></div>
+
+  </div><!--sliders  -->
+</div><!--card-principal  -->
+</div>
+<div class="header-right">
+    <p id="ideal">preço da viajem</p>
+    <h1 style="font-family: 'Staatliches'">pra onde quer ir da europa?</h1>
+    <input type="text" placeholder="onde que ir?" id="local">
+    <button href=""class="a-button" type="submit" onclick="viajem()">Partiu europa</button>
+</div>
+<div>
+    
+</div>
+</div>
+</header>
+<main>
+<section >
+<div class="main1">
+<div class="cards">
+<div class="titulo"><h1>Tailandia</h1>     </div>
+<img src="https://misteriosdomundo.org/wp-content/uploads/2019/08/Pr%C3%ADncipe-saudita-revela-planos-para-construir-megacidade-futurista-de-R-1-trilh%C3%A3o.jpg" alt="" srcset="" style="width: 100%;height: 60%;">
+<div class="preco">
+<p>R$: 800,00</p>
+<a href="">viajar</a>
+</div>
+</div>
+<div class="cards">
+<div class="titulo"><h1>Nova york</h1>  </div>
+<img src="https://media.alemdaenergia.engie.com.br/uploads/2020/12/nova-york-640x360.jpg" alt="" srcset="" style="width: 100%;height: 60%;">
+<div class="preco">
+<p>R$: 300,00</p>
+<a href="">viajar</a>
+</div>
+</div>
+<div class="cards">
+<div class="titulo"><h1>londres</h1>          </div>
+<img src="https://i.pinimg.com/originals/c6/3e/f1/c63ef10aa2a37ca2187cea470f66db52.jpg" alt="" srcset="" style="width: 100%;height: 60%;">
+<div class="preco">
+<p>R$: 500,00</p>
+<a href="">viajar</a>
+</div>
+</div>
+</div>
+</section>
+<section class="fundo1">
+ 
+</section>
+<section>
+<div class="main2">
+    <form action="" method="post">
+        <h2 >CADASTRO</h2>
+        <p >os dados vai cair tudo no email</p>
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="text" name="SobreNome" placeholder="Sobre-Nome" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="senha" placeholder="CPF:" required>
+        <button type="submit">enviar</button>
+        </form>
+</div>
+</section>
+<section class="fundo2"></section>
+
+
+</main>
+<script src="../java/java.js"></script>
+</body>
+</html>
